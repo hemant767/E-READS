@@ -1,0 +1,43 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+.header_left {
+    display:flex;
+    padding-left:30px;
+    padding-top:30px;
+    align-items: center;
+    width:10%;
+    color:beige;
+    
+    
+}
+
+.header_mid {
+    padding-top:30px;
+    width:100%;
+    text-align:center;
+    
+}
+.header_mid > h2{
+    color:#F4A950 ;
+    font-size: 30px;
+    font-family: 'Hind Siliguri', sans-serif;
+    
+}
+.header_right {
+    display:flex;
+    padding-top:30px;
+    padding-right: 30px;
+    width:10%;
+    justify-content:flex-start;
+}
+.header_left > input{
+    outline:none;
+    border:none;
+    background:transparent;
+    max-width: 80%;
+
+}
+

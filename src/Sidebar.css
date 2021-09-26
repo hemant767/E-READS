@@ -1,0 +1,14 @@
+.Sidebar {
+    
+    padding-left:40px;
+    width:fit-content;
+    width:10%;
+
+    
+}
+.Sidebar_container {
+    padding-top: 200px;
+    display:flex;
+    flex-direction:column;
+    
+}
