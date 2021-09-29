@@ -6,7 +6,6 @@
 .header_mid {
     display:flex;
     padding-left:100px;
-    
     align-items: center;
     width:80%;
     justify-content:center;
@@ -31,19 +30,26 @@
     padding-top:30px;
     width:10%;
     justify-content:flex-start;
-    /* background-color:red ; */
-    /* border-bottom:grey solid 1px; */
+    
 }
-.header_mid > input{
+.header_mid > .searchbar>input {
     outline:none;
     border:none;
     background-color:transparent;
-
-    padding-left: 40px;
+    padding-left: 20px;
     height:40px;
-    border-radius:5px;
     width: 500px;
+    
+    
+}
+.searchbar {
     border:2px solid #F4A950;
+    border-radius:5px;
+    display:flex ;
+    align-items:center;
+}
+.search{
+    padding-right: 20px;
     
 }
 

@@ -17,9 +17,10 @@ function Header() {
                 <h2>E-READS</h2>
             </div>
             <div className="header_mid">
-            <SearchIcon style={{"margin-right":"-2%"}}/>
-                <input style={box} type="text" placeholder="Search" />
-                
+                <div className="searchbar">
+                    <input style={box} type="text" placeholder="Search" />
+                    <SearchIcon className="search" />
+                </div>
             </div>
             
             <div className="header_right">
