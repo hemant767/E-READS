@@ -13,13 +13,15 @@ const box={
 function Header() {
     return (
         <div className="header">
-            <div className="header_left">
-                <input style={box} type="text" placeholder="Search" />
-                <SearchIcon />
-            </div>
-            <div className="header_mid">
+        <div className="header_left">
                 <h2>E-READS</h2>
             </div>
+            <div className="header_mid">
+            <SearchIcon style={{"margin-right":"-2%"}}/>
+                <input style={box} type="text" placeholder="Search" />
+                
+            </div>
+            
             <div className="header_right">
                 <Avatar />
             </div>

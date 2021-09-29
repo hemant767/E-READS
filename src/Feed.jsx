@@ -8,6 +8,7 @@ const Feed = () => {
         <div className="Feed">
             <div className="Feedslider">
               <Slider slides={SliderData}/> 
+              
             </div>
           
         </div>
