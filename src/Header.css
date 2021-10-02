@@ -6,7 +6,7 @@
 .header_mid {
     display:flex;
     padding-left:100px;
-    align-items: center;
+    align-items:center;
     width:80%;
     justify-content:center;
     color:beige;

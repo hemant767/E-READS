@@ -2,6 +2,7 @@ import React,{ useState} from 'react'
 import {SliderData} from './sliderData'
 import {BsCaretLeftFill,BsCaretRightFill } from 'react-icons/bs'
 import './Slider.css'
+import Version from './Version'
 const Slider = ({slides}) => {
 
     const [current, setCurrent] = useState(0)
@@ -21,20 +22,31 @@ const Slider = ({slides}) => {
     return (
         <section className="Slider">
         <BsCaretLeftFill className="left-arrow" onClick={prevSlide}/>
-        <BsCaretRightFill className="right-arrow"onClick={nextSlide}/>
+        <BsCaretRightFill className="right-arrow" onClick={nextSlide}/>
         {SliderData.map((slide, index) =>{
-
+            
             return(
+                <>
                 <div className = {index === current ? 'slide active ':'slide'} key={index}> 
                    {index === current && (
                     <img src={slide.image} alt=""  className="image"/> 
                    )} 
-                     
                 </div>
+                
+                <div className = {index === current ? 'slide active ':'slide'} key={index}>
+                 {index === current && (
+                    <Version  subImages={slide.subImage}/> 
+                   )} 
+                </div> 
+                
+                </>
+                
+                
             )
-           
-
         })}
+
+        
+
         </section>
     )
 };
