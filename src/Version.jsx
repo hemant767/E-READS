@@ -1,6 +1,6 @@
 import React from 'react'
 import './Version.css';
-const Version = ({subImages,length}) => {
+const Version = ({subImages}) => {
     
     
 

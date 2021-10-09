@@ -23,7 +23,7 @@ plot(w/pi,20*log(m));
 grid;
 xlabel('Normal Frequency');
 ylabel('Gain in dB');
-title('magnitude Respons of HPF Hemant Raj 19BEE0179');
+title('magnitude Response of HPF Hemant Raj 19BEE0179');
 subplot(2,1,2);
 
 %Plotting phase Response

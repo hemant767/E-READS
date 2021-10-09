@@ -18,6 +18,7 @@ const Slider = ({slides}) => {
     if(!Array.isArray(slides) || slides.length <= 0){
         return null;
     }
+    
 
     return (
         <section className="Slider">
@@ -33,7 +34,7 @@ const Slider = ({slides}) => {
                    )} 
                 </div>
                 
-                <div className = {index === current ? 'slide active ':'slide'} key={index}>
+                <div className = {index === current ? 'slide1 active ':'slide1'} key={index}>
                  {index === current && (
                     <Version  subImages={slide.subImage}/> 
                    )} 

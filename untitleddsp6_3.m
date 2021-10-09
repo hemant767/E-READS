@@ -25,7 +25,7 @@ plot(w/pi,20*log(m));
 grid;
 xlabel('Normal Frequency');
 ylabel('Gain in dB');
-title('magnitude Respons of Band sto pHemant Raj 19BEE0179');
+title('magnitude Respons of Band stop Hemant Raj 19BEE0179');
 subplot(2,1,2);
 
 %Plotting phase Response
