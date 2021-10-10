@@ -11,6 +11,8 @@ const box={
 }
 
 function Header() {
+    
+
     return (
         <div className="header">
         <div className="header_left">

@@ -7,7 +7,15 @@ const Feed = () => {
     return (
         <div className="Feed">
             <div className="Feedslider">
-              <Slider slides={SliderData}/> 
+            <Slider slides={SliderData}/> 
+            <Slider slides={SliderData}/>
+            <Slider slides={SliderData}/>
+            <Slider slides={SliderData}/>
+            <Slider slides={SliderData}/>
+            <Slider slides={SliderData}/>
+            <Slider slides={SliderData}/>
+            <Slider slides={SliderData}/>
+            <Slider slides={SliderData}/>
               
             </div>
           

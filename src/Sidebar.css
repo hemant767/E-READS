@@ -1,7 +1,12 @@
 .Sidebar {
     
     width:fit-content;
+    
+    position: sticky;
+    top:100px ;
     width:10%;
+    
+    
    
 }
 .Sidebar_container {

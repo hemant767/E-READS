@@ -9,9 +9,9 @@ const App = () => {
             <Header />
             <div className="Body">
                 <Sidebar />
+                <div className="Feed_container">
                 <Feed />
-                
-
+                </div>
             </div>
             
         </div>
