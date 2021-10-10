@@ -1,22 +1,15 @@
 import React from 'react'
-import './App.css'
-import Sidebar from './Sidebar';
-import Header from './Header';
-import Feed from './Feed';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import HomePage from "./Pages/HomePage/HomePage";
+
 const App = () => {
     return (
-        <div className="App">
-            <Header />
-            <div className="Body">
-                <Sidebar />
-                <div className="Feed_container">
-                <Feed />
-                </div>
-            </div>
-            
-        </div>
-        
-    )
-}
-
-export default App
+        <BrowserRouter>
+            <Switch>
+                <Route path="/" exact component={HomePage} /> 
+                
+            </Switch>
+        </BrowserRouter>
+    );
+};
+export default App;

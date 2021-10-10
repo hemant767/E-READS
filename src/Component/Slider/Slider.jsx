@@ -1,8 +1,8 @@
 import React,{ useState} from 'react'
-import {SliderData} from './sliderData'
+import {SliderData} from '../sliderData/sliderData'
 import {BsCaretLeftFill,BsCaretRightFill } from 'react-icons/bs'
 import './Slider.css'
-import Version from './Version'
+import Version from '../Version/Version'
 const Slider = ({slides}) => {
 
     const [current, setCurrent] = useState(0)

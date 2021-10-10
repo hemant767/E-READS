@@ -1,10 +1,11 @@
 import React from 'react'
-import Sidebarlist from './Sidebarlist'
+import Sidebarlist from '../Sidebarlist/Sidebarlist'
 import {AiFillHome} from 'react-icons/ai'
 import {MdMovie,MdLocalMovies,MdGamepad,MdViewList} from 'react-icons/md'
 import {BsBookHalf} from 'react-icons/bs'
 
 import './Sidebar.css'
+
 
 const Sidebar = () => {
     return (

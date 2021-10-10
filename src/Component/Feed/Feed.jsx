@@ -1,6 +1,6 @@
 import React from 'react'
-import Slider from './Slider'
-import {SliderData} from './sliderData'
+import Slider from '../Slider/Slider'
+import {SliderData} from '../sliderData/sliderData'
 
 import './Feed.css'
 const Feed = () => {
