@@ -9,13 +9,7 @@ const Feed = () => {
             <div className="Feedslider">
             <Slider slides={SliderData}/> 
             <Slider slides={SliderData}/>
-            <Slider slides={SliderData}/>
-            <Slider slides={SliderData}/>
-            <Slider slides={SliderData}/>
-            <Slider slides={SliderData}/>
-            <Slider slides={SliderData}/>
-            <Slider slides={SliderData}/>
-            <Slider slides={SliderData}/>
+            
               
             </div>
           
